@@ -46,7 +46,7 @@ button.addEventListener('click', function() {
         label.textContent = itemText;
 
         const trash = document.createElement('img');
-        trash.src = '/assets/trash.svg';
+        trash.src = './assets/trash.svg';
         trash.alt = '';
         trash.classList.add('trash');
 
